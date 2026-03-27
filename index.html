@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Smart Transport Grid Ltd — Transforming Nigeria's transport sector into a verifiable, data-driven infrastructure." />
+  <meta name="keywords" content="STRAG, Nigeria transport, smart transport, cashless fare, vehicle registration, Eastern Nigeria, GovTech" />
+  <meta name="author" content="Smart Transport Grid Ltd" />
+
+  <title>STRAG — Smart Transport Grid Ltd</title>
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- NAVIGATION                                      -->
+<!-- ═══════════════════════════════════════════════ -->
+<nav aria-label="Main navigation">
+  <div class="nav-inner">
+
+    <!-- Logo -->
+    <!-- <a href="#" class="nav-logo" aria-label="STRAG Home">
+      <div class="nav-logo-mark" aria-hidden="true">S</div>
+      <span class="nav-logo-text">STRAG™</span>
+    </a> -->
+    <a href="#">
+        <img src="assets/images/strag_logo_new.png" alt="Strag Logo" class="nav-img" />
+    </a>
+
+    <!-- Desktop Links -->
+    <ul class="nav-links" id="nav-links" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#solutions">Solutions</a></li>
+      <li><a href="#stakeholders">Stakeholders</a></li>
+      <li><a href="#leadership">Leadership</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <!-- CTA -->
+    <a href="#cta" class="nav-cta">Partner With Us</a>
+
+    <!-- Mobile Toggle -->
+    <button
+      class="nav-toggle"
+      id="nav-toggle"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="nav-links"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</nav>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- HERO                                            -->
+<!-- ═══════════════════════════════════════════════ -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-inner">
+
+    <!-- Left: Copy -->
+    <div>
+      <!-- <div class="hero-eyebrow">🚌 Nigerian GovTech · Transport Infrastructure</div> -->
+      <h1 class="fade-in">Smart Transport<br /><span>Grid Ltd</span></h1>
+      <p class="hero-desc fade-in fade-in-1">
+        Transforming Nigeria's transport sector into a verifiable, data-driven infrastructure.
+        Every vehicle registered. Every journey safe. Every naira accounted for.
+      </p>
+      <div class="hero-actions fade-in fade-in-2">
+        <a href="#cta" class="btn-primary">🤝 Partner With Us</a>
+        <a href="#solutions" class="btn-outline">Explore Solutions</a>
+      </div>
+    </div>
+
+    <!-- Right: Visual -->
+    <div class="hero-visual">
+      <div class="hero-img-wrap">
+        <!--
+          IMAGES FOLDER NOTE:
+          Place your own hero image at: assets/images/hero-bus.jpg
+          The src below uses an Unsplash fallback for development.
+        -->
+        <img
+          src="assets/images/banner_1.jpeg"
+          alt="Commercial bus on a Nigerian road"
+          loading="eager"
+        />
+        <div class="hero-img-overlay" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- TICKER                                          -->
+<!-- ═══════════════════════════════════════════════ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="ticker-item">🚌 Commercial Vehicle Profiling<span class="ticker-dot"></span></span>
+    <span class="ticker-item">📱 Cashless Tap &amp; Pay<span class="ticker-dot"></span></span>
+    <span class="ticker-item">🛡️ Passenger Safety &amp; SOS<span class="ticker-dot"></span></span>
+    <span class="ticker-item">📊 Government Fleet Dashboard<span class="ticker-dot"></span></span>
+    <span class="ticker-item">🔍 QR Scan-to-Verify<span class="ticker-dot"></span></span>
+    <span class="ticker-item">🗂️ Digital Offence Booking<span class="ticker-dot"></span></span>
+    <span class="ticker-item">🚐 Enugu · Anambra · Imo · Abia · Ebonyi<span class="ticker-dot"></span></span>
+    <!-- Duplicate set for seamless loop -->
+    <span class="ticker-item">🚌 Commercial Vehicle Profiling<span class="ticker-dot"></span></span>
+    <span class="ticker-item">📱 Cashless Tap &amp; Pay<span class="ticker-dot"></span></span>
+    <span class="ticker-item">🛡️ Passenger Safety &amp; SOS<span class="ticker-dot"></span></span>
+    <span class="ticker-item">📊 Government Fleet Dashboard<span class="ticker-dot"></span></span>
+    <span class="ticker-item">🔍 QR Scan-to-Verify<span class="ticker-dot"></span></span>
+    <span class="ticker-item">🗂️ Digital Offence Booking<span class="ticker-dot"></span></span>
+    <span class="ticker-item">🚐 Enugu · Anambra · Imo · Abia · Ebonyi<span class="ticker-dot"></span></span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- ABOUT                                           -->
+<!-- ═══════════════════════════════════════════════ -->
+<section class="section" id="about" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- Image -->
+      <div class="about-img-wrap">
+        <!--
+          Place your own about image at: assets/images/about-transport.jpg
+        -->
+        <img
+          src="assets/images/banner.jpeg"
+          alt="Nigerian transport infrastructure"
+          loading="lazy"
+        />
+      </div>
+
+      <!-- Content -->
+      <div class="about-content">
+        <div class="section-label section-label-blue">🏢 About STRAG™</div>
+        <h2 id="about-heading">Built for Nigeria's Transport Reality</h2>
+        <p>
+          Smart Transport Grid Ltd (STRAG™) is a Nigerian technology company providing intelligent
+          and sustainable transport solutions. The company was incorporated in June 2024 under the
+          Companies and Allied Matters Act 2020.
+        </p>
+        <p>
+          STRAG operates as a centralised, data-driven transport management system designed to
+          improve safety, accountability, and operational efficiency across public and commercial
+          transport networks in Eastern Nigeria and beyond.
+        </p>
+        <p>
+          The platform integrates digital identity, cashless payments, compliance tracking, and fleet
+          intelligence into one unified infrastructure layer for state governments, transport
+          operators, and commuters.
+        </p>
+        <div class="vmv-cards">
+          <div class="vmv-card">
+            <div class="vmv-card-icon">🎯</div>
+            <h4>Vision</h4>
+            <p>Making transportation safe, smart, sustainable, and connected for everyone.</p>
+          </div>
+          <div class="vmv-card">
+            <div class="vmv-card-icon">🚀</div>
+            <h4>Mission</h4>
+            <p>Empowering cities and communities with safe, intelligent, and sustainable transport solutions.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- CHALLENGES                                      -->
+<!-- ═══════════════════════════════════════════════ -->
+<section class="section section-alt" id="challenges" aria-labelledby="challenges-heading">
+  <div class="container">
+    <div class="section-intro">
+      <div class="section-label section-label-red">⚠️ The Challenge</div>
+      <h2 id="challenges-heading">The Transport Sector Challenges</h2>
+      <p>
+        These are not isolated problems. They form an interconnected system of failures that leave
+        passengers unsafe, governments without revenue, and operators without recognition.
+      </p>
+    </div>
+
+    <div class="challenges-wrap">
+      <div class="challenge-card">
+        <div class="challenge-card-icon">📋</div>
+        <h4>Poor Transport Data for Planning</h4>
+        <p>State ministries lack real-time intelligence on fleet size, routes, and ridership patterns, making infrastructure planning unreliable.</p>
+      </div>
+      <div class="challenge-card">
+        <div class="challenge-card-icon">🪪</div>
+        <h4>Unverified Operators on the Road</h4>
+        <p>Drivers operate without proper documentation. No certification. No identity trail. No accountability when incidents occur.</p>
+      </div>
+      <div class="challenge-card">
+        <div class="challenge-card-icon">⚖️</div>
+        <h4>Weak Traffic Law Enforcement</h4>
+        <p>Violations go unrecorded or are resolved informally through cash. The enforcement chain has no digital audit trail.</p>
+      </div>
+      <div class="challenge-card">
+        <div class="challenge-card-icon">📜</div>
+        <h4>Poor Regulatory Systems</h4>
+        <p>Legislative and regulatory frameworks remain outdated. Transport levies and permits are managed manually with no reconciliation.</p>
+      </div>
+      <div class="challenge-card">
+        <div class="challenge-card-icon">🚨</div>
+        <h4>Slow Emergency Response</h4>
+        <p>Vehicle breakdowns in remote areas receive no coordinated response. There is no digital alert channel linking operators to emergency services.</p>
+      </div>
+      <div class="challenge-card">
+        <div class="challenge-card-icon">🔒</div>
+        <h4>Criminal Activity in Transit</h4>
+        <p>One-chance crimes, kidnapping, robbery, and fake checkpoints flourish because vehicles and passengers have no verified digital identity.</p>
+      </div>
+      <div class="challenge-card">
+        <div class="challenge-card-icon">💥</div>
+        <h4>Unsafe Commercial Vehicles</h4>
+        <p>Poorly maintained vehicles operate without inspection records. Accidents result from mechanical failure that proper oversight would have prevented.</p>
+      </div>
+      <div class="challenge-card">
+        <div class="challenge-card-icon">🏛️</div>
+        <h4>No Inter-Agency Integration</h4>
+        <p>Police, FRSC, VIO, and state transport ministries operate in silos. Data is not shared. Incidents fall through institutional gaps.</p>
+      </div>
+      <div class="challenge-card">
+        <div class="challenge-card-icon">💸</div>
+        <h4>Massive Revenue Leakage</h4>
+        <p>65% of transport revenue is cash-based and untracked.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- SOLUTIONS                                       -->
+<!-- ═══════════════════════════════════════════════ -->
+<section class="section" id="solutions" aria-labelledby="solutions-heading">
+  <div class="container">
+    <div class="section-intro">
+      <div class="section-label">🔧 The STRAG™ Solutions</div>
+      <h2 id="solutions-heading">One Platform. Every Layer of Transport Covered.</h2>
+      <p>
+        STRAG delivers six integrated solutions that address the full lifecycle of commercial transport
+        — from vehicle registration through to fleet intelligence and revenue collection.
+      </p>
+    </div>
+
+    <div class="solutions-grid">
+
+      <div class="solution-card">
+        <div class="sol-icon">🪪</div>
+        <h3>Commercial Vehicle Registration &amp; Profiling</h3>
+        <p>Every commercial vehicle — buses, keke tricycles, motorcycles — receives a verified digital identity linked to the national NIN system.</p>
+        <ul class="sol-points">
+          <li>Unique STRAG ID per vehicle, driver, and owner</li>
+          <li>QR code stickers installed on every vehicle</li>
+          <li>Central database accessible to enforcement agencies</li>
+          <li>Annual renewal with automated reminders</li>
+        </ul>
+      </div>
+
+      <div class="solution-card">
+        <div class="sol-icon sol-icon-green">🎓</div>
+        <h3>Commercial Driver and Rider Certification</h3>
+        <p>Annual certification ensures only qualified operators drive passengers across Nigeria, motor parks, and interstate corridors.</p>
+        <ul class="sol-points">
+          <li>Digital training and assessment modules</li>
+          <li>Certification card linked to STRAG profile</li>
+          <li>Rating system visible to passengers</li>
+          <li>Automatic suspension for repeated violations</li>
+        </ul>
+      </div>
+
+      <div class="solution-card">
+        <div class="sol-icon sol-icon-purple">🎟️</div>
+        <h3>Vehicle E-Ticketing System</h3>
+        <p>Electronic invoicing and payment processing for levies, permits, and transport fees. Every naira is tracked with a digital receipt.</p>
+        <ul class="sol-points">
+          <li>Digital levy and permit payments</li>
+          <li>Real-time reconciliation with state accounts</li>
+          <li>USSD fallback for feature phone users</li>
+          <li>Auto-generated receipts for operators</li>
+        </ul>
+      </div>
+
+      <div class="solution-card">
+        <div class="sol-icon sol-icon-red">🚦</div>
+        <h3>Vehicle Inspection &amp; Enforcement</h3>
+        <p>Enforcement officers digitally book violations linked to the vehicle registry. Disputes are resolved through a transparent, tamper-proof audit trail.</p>
+        <ul class="sol-points">
+          <li>Digital offence capture with QR-coded receipts</li>
+          <li>Offenders scan to verify fines and track payment</li>
+          <li>Eliminates cash-based enforcement corruption</li>
+        </ul>
+      </div>
+
+      <div class="solution-card">
+        <div class="sol-icon sol-icon-gold">💳</div>
+        <h3>Smart Tap &amp; Pay Fare System</h3>
+        <p>Cashless fare collection through NFC terminals and QR code scanning. Designed for urban buses, keke tricycles, and motorcycle operators.</p>
+        <ul class="sol-points">
+          <li>NFC tap-and-pay and QR fare collection</li>
+          <li>Digital wallet with daily settlement dashboard</li>
+          <li>Ruggedised hardware for non-smartphone operators</li>
+          <li>Passenger auto-receipt for every journey</li>
+        </ul>
+      </div>
+
+      <div class="solution-card">
+        <div class="sol-icon">🆘</div>
+        <h3>Incident Reporting &amp; Emergency Alerts</h3>
+        <p>GPS-based SOS alerts connect passengers and drivers to emergency services in real time. Live trip sharing deters criminal activity.</p>
+        <ul class="sol-points">
+          <li>SOS panic button on passenger and driver apps</li>
+          <li>Live trip sharing with trusted contacts</li>
+          <li>Electronic passenger manifest per journey</li>
+          <li>SOS alerts forwarded to nearest police station</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- VALUES (STRAG ACRONYM)                          -->
+<!-- ═══════════════════════════════════════════════ -->
+<section class="section section-alt" id="values" aria-labelledby="values-heading">
+  <div class="container">
+    <div class="section-intro-center">
+      <div class="section-label">💡 Core Values</div>
+      <h2 id="values-heading">The STRAG™ Principles</h2>
+      <p>Five values that define how STRAG operates, delivers, and grows — reflected in every product decision, partnership, and deployment.</p>
+    </div>
+    <div class="values-grid">
+      <div class="value-card">
+        <div class="value-letter">S</div>
+        <div class="value-word">Service</div>
+        <p>Commitment to providing exceptional service to customers, colleagues and communities.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-letter">T</div>
+        <div class="value-word">Teamwork</div>
+        <p>Fostering a collaborative environment where every team member's contribution is valued.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-letter">R</div>
+        <div class="value-word">Respect</div>
+        <p>Treating every one with dignity, empathy, and understanding regardless of differences.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-letter">A</div>
+        <div class="value-word">Accountability</div>
+        <p>Taking ownership of actions and outcomes, and holding one self responsible for results.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-letter">G</div>
+        <div class="value-word">Growth</div>
+        <p>Growth continuously seeking opportunities for personal, professional, and organisational development.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- STAKEHOLDERS                                    -->
+<!-- ═══════════════════════════════════════════════ -->
+<section class="section section-alt" id="stakeholders" aria-labelledby="stakeholders-heading">
+  <div class="container">
+    <div class="section-intro-center">
+      <div class="section-label section-label-green">👥 Who STRAG Serves</div>
+      <h2 id="stakeholders-heading">Built for Every Actor in the Transport Ecosystem</h2>
+      <p>STRAG serves four core stakeholder groups. Each group has a purpose-built interface and tailored value proposition.</p>
+    </div>
+    <div class="stakeholders-grid">
+      <div class="stakeholder-card">
+        <div class="stakeholder-icon" style="background:var(--blue-lt);">🧍</div>
+        <div>
+          <h3>Passengers and Daily Commuters</h3>
+          <ul>
+            <li>Verify vehicle authenticity before boarding via QR scan</li>
+            <li>Live trip sharing with trusted contacts</li>
+            <li>SOS emergency alerts connected to police</li>
+            <li>Digital fare payment with instant receipts</li>
+            <li>Safer, accountable travel on urban and rural routes, and interstate corridors</li>
+          </ul>
+        </div>
+      </div>
+      <div class="stakeholder-card">
+        <div class="stakeholder-icon" style="background:var(--green-lt);">🚌</div>
+        <div>
+          <h3>Commercial Vehicles Operators</h3>
+          <ul>
+            <li>Digital certification and annual training pathway</li>
+            <li>Safety tracking and live route tools</li>
+            <li>Violation tracking and digital fine payment</li>
+            <li>Transparent earnings dashboard and daily settlement</li>
+            <li>Credit scoring and microloan eligibility through verified income history</li>
+          </ul>
+        </div>
+      </div>
+      <div class="stakeholder-card">
+        <div class="stakeholder-icon" style="background:var(--gold-lt);">🚐</div>
+        <div>
+          <h3>Vehicle Owners and Fleet Managers</h3>
+          <ul>
+            <li>Full vehicle tracking and management dashboard</li>
+            <li>Predictive maintenance alerts and route analytics</li>
+            <li>Easy permit and ticket processing via the platform</li>
+            <li>Access to safety tools and compliance records</li>
+            <li>Insurance eligibility through verified trip records</li>
+          </ul>
+        </div>
+      </div>
+      <div class="stakeholder-card">
+        <div class="stakeholder-icon" style="background:var(--purple-lt);">🏛️</div>
+        <div>
+          <h3>State Governments and Ministries of Transport</h3>
+          <ul>
+            <li>Real-time revenue dashboards for levy and fine collection</li>
+            <li>Fleet intelligence and urban planning data</li>
+            <li>Inter-agency integration with Police, FRSC, and VIO</li>
+            <li>Complete audit trail eliminating revenue leakage</li>
+            <li>Scalable IGR diversification through a Public-Private Partnership model</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- TRUST & INFRASTRUCTURE                          -->
+<!-- ═══════════════════════════════════════════════ -->
+<section class="section" id="trust" aria-labelledby="trust-heading">
+  <div class="container">
+    <div class="section-intro-center">
+      <div class="section-label section-label-blue">🔐 Trust and Infrastructure</div>
+      <h2 id="trust-heading">Built for Nigeria's Reality. Designed to Last.</h2>
+      <p>STRAG is engineered for low-bandwidth environments, feature phones, limited connectivity, and the specific operational demands of the Nigerian transport networks.</p>
+    </div>
+    <div class="trust-grid">
+      <div class="trust-card">
+        <div class="trust-icon">🪪</div>
+        <h4>NIN-Based Identity Verification</h4>
+        <p>All operator profiles are linked to the NIMC National Identification Number, ensuring every driver and owner has a verifiable, government-backed identity.</p>
+      </div>
+      <div class="trust-card">
+        <div class="trust-icon">📶</div>
+        <h4>Offline and USSD Capability</h4>
+        <p>STRAG functions in low-connectivity environments with USSD fallback support, ensuring operations continue in areas with poor mobile data coverage.</p>
+      </div>
+      <div class="trust-card">
+        <div class="trust-icon">📱</div>
+        <h4>Low-End Device Compatibility</h4>
+        <p>The platform is optimised for Mobile devices starting at low specifications. Ruggedised hardware is available for operators without smartphones.</p>
+      </div>
+      <div class="trust-card">
+        <div class="trust-icon">🔒</div>
+        <h4>Data Protection and Privacy</h4>
+        <p>All personal and transactional data is handled under Nigerian data protection standards. No passenger or operator data is shared without authorisation.</p>
+      </div>
+      <div class="trust-card">
+        <div class="trust-icon">🏗️</div>
+        <h4>Scalable Cloud Infrastructure</h4>
+        <p>STRAG's backend is built for horizontal scale, capable of handling hundreds of thousands of concurrent vehicle registrations and transactions per state.</p>
+      </div>
+      <div class="trust-card">
+        <div class="trust-icon">🤝</div>
+        <h4>Fintech Partner Integration</h4>
+        <p>STRAG integrates with licensed Nigerian fintech payment processors to ensure all wallet operations and settlements meet CBN regulatory requirements.</p>
+      </div>
+      <div class="trust-card">
+        <div class="trust-icon">📡</div>
+        <h4>Inter-Agency Data Exchange</h4>
+        <p>STRAG's Transport Data Exchange Standard (TDES) enables structured data sharing between Police, FRSC, VIO, and state ministries without compromising operational independence.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- LEADERSHIP                                      -->
+<!-- ═══════════════════════════════════════════════ -->
+<section class="section section-alt" id="leadership" aria-labelledby="leadership-heading">
+  <div class="container">
+    <div class="section-intro-center">
+      <div class="section-label section-label-blue">👤 The Team</div>
+      <h2 id="leadership-heading">Leadership Driving Nigeria's Transport Transformation</h2>
+      <p>STRAG is led by experienced practitioners in technology, policy, and public sector delivery across Nigeria.</p>
+    </div>
+    <div class="leadership-grid">
+
+      <div class="leader-card">
+        <div class="leader-img" style="background:linear-gradient(135deg, var(--blue-lt), var(--purple-lt));">
+           <img src="assets/images/sam.jpeg" alt="Sam-img" class="banner-img" />
+        </div>
+        <div class="leader-info">
+          <div class="leader-name">Samuel Imene</div>
+          <div class="leader-role">Co-Founder/Chief Executive Officer</div>
+        </div>
+      </div>
+
+      <div class="leader-card">
+        <div class="leader-img" style="background:linear-gradient(135deg, var(--blue-lt), var(--purple-lt));">
+          <!--
+            Replace with actual photo: assets/images/team-samuel-imene.jpg
+          -->
+          <span aria-hidden="true">👤</span>
+        </div>
+        <div class="leader-info">
+          <div class="leader-name">Ugwanyi Gerard</div>
+          <div class="leader-role">Co-Founder</div>
+        </div>
+      </div>
+
+      <div class="leader-card">
+        <div class="leader-img">
+          <!--
+            Replace with actual photo: assets/images/team-victor-ekuma.jpg
+          -->
+          <img
+            src="/assets/images/victor.jpeg"
+            alt="Victor Ekuma, Business Lead"
+            loading="lazy"
+          />
+        </div>
+        <div class="leader-info">
+          <div class="leader-name">Victor Ekuma</div>
+          <div class="leader-role">Business Developer</div>
+        </div>
+      </div>
+
+      <div class="leader-card">
+        <div class="leader-img">
+          <!--
+            Replace with actual photo: assets/images/team-victor-ekuma.jpg
+          -->
+          <img
+            src="/assets/images/denis.jpeg"
+            alt="Denis Okolo"
+            loading="lazy"
+          />
+        </div>
+        <div class="leader-info">
+          <div class="leader-name">Denis Okolo</div>
+          <div class="leader-role">Chief Technology Officer</div>
+        </div>
+      </div>
+
+      <div class="leader-card">
+        <div class="leader-img">
+          <!--
+            Replace with actual photo: assets/images/team-edward-rajah.jpg
+          -->
+          <img
+            src="/assets/images/edward.jpeg"
+            alt="Edward Rajah, Technology Lead"
+            loading="lazy"
+          />
+        </div>
+        <div class="leader-info">
+          <div class="leader-name">Edward Rajah</div>
+          <div class="leader-role">Senior Software Engineer</div>
+        </div>
+      </div>
+
+      <div class="leader-card">
+        <div class="leader-img">
+          <!--
+            Replace with actual photo: assets/images/team-edward-rajah.jpg
+          -->
+          <img
+            src="/assets/images/prince.jpeg"
+            alt="Prince Prince, Technology Lead"
+            loading="lazy"
+          />
+        </div>
+        <div class="leader-info">
+          <div class="leader-name">Prince Prince</div>
+          <div class="leader-role">Cheif Account Officer</div>
+        </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- FAQ                                             -->
+<!-- ═══════════════════════════════════════════════ -->
+<section class="section" id="faq" aria-labelledby="faq-heading">
+  <div class="container">
+    <div class="section-intro-center">
+      <div class="section-label">❓ Frequently Asked Questions</div>
+      <h2 id="faq-heading">Questions About STRAG</h2>
+      <p>Answers to the questions most frequently asked by governments, transport operators, investors, and passengers.</p>
+    </div>
+    <div class="faq-grid">
+
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)" role="button" tabindex="0" aria-expanded="false">
+          <h4>What is STRAG and what problem does it solve?</h4>
+          <div class="faq-chevron" aria-hidden="true">▼</div>
+        </div>
+        <div class="faq-a">STRAG is a digital public infrastructure platform for Nigeria's informal commercial transport sector. It solves three interconnected failures: passenger insecurity from unverified vehicles, revenue leakage from cash-based operations, and an invisible economy where 60% of commercial vehicles have no digital identity. STRAG registers vehicles, certifies drivers, enables cashless payments, and provides governments with real-time fleet intelligence.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)" role="button" tabindex="0" aria-expanded="false">
+          <h4>How does STRAG work for drivers who do not have smartphones?</h4>
+          <div class="faq-chevron" aria-hidden="true">▼</div>
+        </div>
+        <div class="faq-a">STRAG provides ruggedised dedicated payment terminals for operators without smartphones. The platform also includes a USSD fallback system that enables basic functions — including fare collection and identity verification — through any mobile phone, with or without data connectivity. No driver is excluded due to device limitations.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)" role="button" tabindex="0" aria-expanded="false">
+          <h4>Which transport types does STRAG cover?</h4>
+          <div class="faq-chevron" aria-hidden="true">▼</div>
+        </div>
+        <div class="faq-a">STRAG covers all commercial transport categories relevant to Eastern Nigeria: urban buses operating city routes, keke (tricycle) operators, commercial motorcycle riders (okada), interstate buses running routes such as Enugu to Onitsha, and any vehicle registered to carry passengers or cargo for commercial purposes through motor parks and union terminals.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)" role="button" tabindex="0" aria-expanded="false">
+          <h4>How does STRAG protect passenger data and privacy?</h4>
+          <div class="faq-chevron" aria-hidden="true">▼</div>
+        </div>
+        <div class="faq-a">All personal and transactional data on the STRAG platform is handled in accordance with Nigerian data protection standards. Passenger data is never sold to third parties. Trip data shared with government agencies is aggregated for planning purposes. Emergency alerts are transmitted only with the explicit action of the passenger through the SOS mechanism.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)" role="button" tabindex="0" aria-expanded="false">
+          <h4>How does STRAG help operators access credit?</h4>
+          <div class="faq-chevron" aria-hidden="true">▼</div>
+        </div>
+        <div class="faq-a">By recording every trip and fare digitally, STRAG builds a verifiable income history for each operator. This data forms the basis for a credit scoring profile that STRAG's fintech partners can use to extend microloan products to operators who were previously invisible to the formal financial system. The same trip records also create risk profiles for formal insurance eligibility.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)" role="button" tabindex="0" aria-expanded="false">
+          <h4>How do enforcement agencies use STRAG?</h4>
+          <div class="faq-chevron" aria-hidden="true">▼</div>
+        </div>
+        <div class="faq-a">VIO, FRSC, and Police officers access STRAG through a dedicated enforcement interface. They scan a vehicle QR code to retrieve the full compliance profile instantly. Violations are booked digitally with GPS location and timestamp. Fines are collected directly into state accounts through the payment rails, eliminating cash-based enforcement and the corruption it enables.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- CTA                                             -->
+<!-- ═══════════════════════════════════════════════ -->
+<section class="cta-section" id="cta" aria-labelledby="cta-heading">
+  <div class="container">
+    <div class="section-label section-label-gold" style="justify-content:center; margin-bottom:20px;">🤝 Get Involved</div>
+    <h2 id="cta-heading">Transform Transportation. Build a Connected Future.</h2>
+    <p>
+      STRAG presents a clear opportunity to improve passenger safety, strengthen state revenue,
+      and bring hundreds of thousands of transport operators into the formal economy.
+      The infrastructure is ready. The deployments are active. The next step is partnership.
+    </p>
+    <div class="cta-actions">
+      <a href="mailto:biz@bluetag-it.com" class="btn-white">🤝 Partner With Us</a>
+      <a href="mailto:info@strag.ng"      class="btn-ghost-white">📱 Request a Demo</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- FOOTER                                          -->
+<!-- ═══════════════════════════════════════════════ -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <!-- <div class="footer-logo-row">
+          <div class="footer-logo-mark" aria-hidden="true">S</div>
+          <span class="footer-logo-name">STRAG™</span>
+        </div> -->
+        <a href="#">
+            <img src="assets/images/strag_black.png" alt="Strag Logo" class="nav-img" />
+        </a>
+        <p>Smart Transport Grid Ltd. Transforming Nigeria's transport sector into a verifiable, data-driven infrastructure.</p>
+      </div>
+
+      <!-- Platform Links -->
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="#solutions">CVR Profiling</a></li>
+          <li><a href="#solutions">Driver Certification</a></li>
+          <li><a href="#solutions">Tap &amp; Pay</a></li>
+          <li><a href="#solutions">STIC Dashboard</a></li>
+          <li><a href="#solutions">Offence Booking</a></li>
+          <li><a href="#solutions">Emergency Alerts</a></li>
+        </ul>
+      </div>
+
+      <!-- Company Links -->
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About STRAG</a></li>
+          <li><a href="#scale">Scale Strategy</a></li>
+          <li><a href="#leadership">Leadership</a></li>
+          <li><a href="#cta">Partner With Us</a></li>
+        </ul>
+      </div>
+
+       <!-- Legal -->
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#about">Privacy Policy</a></li>
+          <li><a href="#scale">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item">📧 <a href="mailto:info@strag.ng">info@strag.ng</a></div>
+        <div class="footer-contact-item">📞 <a href="tel:+2348081937426">+234 808 193 7426</a></div>
+        <div class="footer-contact-item">📞 <a href="tel:+2347065499761">+234 706 549 9761</a></div>
+        <div class="footer-contact-item">📍 2 Ikeje Asogwa Drive, Coal City Garden Estate, GRA, Enugu</div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2024 Smart Transport Grid Ltd. All rights reserved.</p>
+      <p class="footer-bottom-right">STRAG™ is a trademark of Smart Transport Grid Ltd.</p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- JAVASCRIPT                                      -->
+<!-- ═══════════════════════════════════════════════ -->
+<script src="assets/js/index.js"></script>
+
+</body>
+</html>
